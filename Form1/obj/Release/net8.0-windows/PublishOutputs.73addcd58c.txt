@@ -1,0 +1,9 @@
+C:\C#\Repositories\Json-translator\Build\Form1.exe
+C:\C#\Repositories\Json-translator\Build\Form1.dll
+C:\C#\Repositories\Json-translator\Build\Form1.deps.json
+C:\C#\Repositories\Json-translator\Build\Form1.runtimeconfig.json
+C:\C#\Repositories\Json-translator\Build\Form1.pdb
+C:\C#\Repositories\Json-translator\Build\GTranslate.dll
+C:\C#\Repositories\Json-translator\Build\Microsoft.Extensions.DependencyInjection.dll
+C:\C#\Repositories\Json-translator\Build\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\C#\Repositories\Json-translator\Build\Newtonsoft.Json.dll
