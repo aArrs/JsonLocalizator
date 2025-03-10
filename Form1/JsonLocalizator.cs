@@ -9,7 +9,6 @@ namespace WinFormsApp2;
     partial class JsonLocalizator : Form
     {
         YandexTranslator translatorYandex = new YandexTranslator();
-        GoogleTranslator2 translatorGoogle = new GoogleTranslator2();
 
         private readonly IGetFileText _getFileText;
         private readonly ICast _cast;
@@ -61,8 +60,8 @@ namespace WinFormsApp2;
 
                 sourceList = _viewList.ValueViewer(sourceStrings, sourceList);
 
-                _addControls.AddLabel(flowLayoutPanel1, sourceList, controlsToRemove);
-                _addControls.AddImmutableTextBox(flowLayoutPanel2, sourceList, controlsToRemove);
+                _addControls.AddLabel(flowLayoutPanel1, panel1, sourceList, controlsToRemove);
+                _addControls.AddImmutableTextBox(flowLayoutPanel2, panel1, sourceList, controlsToRemove);
             }
             catch (Exception ex)
             {
@@ -93,7 +92,7 @@ namespace WinFormsApp2;
                 }
                 translatedStrings = await _translate.TranslateJsonYa(translatorYandex, sourceStrings, language);
                 translatedList = _viewList.ValueViewer(translatedStrings, translatedList);
-                _addControls.AddTextBox(flowLayoutPanel3, translatedList, controlsToRemoveTranslate);
+                _addControls.AddTextBox(flowLayoutPanel3, panel1, translatedList, controlsToRemoveTranslate);
                 button1.Enabled = true;
                 button2.Enabled = true;
                 button3.Enabled = true;

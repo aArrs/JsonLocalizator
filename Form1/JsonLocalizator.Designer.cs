@@ -66,11 +66,10 @@ partial class JsonLocalizator
         comboBox1.Dock = System.Windows.Forms.DockStyle.Top;
         comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
         comboBox1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-        comboBox1.Items.AddRange(new object[] { "Язык", "Английский", "Белорусский" });
+        comboBox1.Items.AddRange(new object[] {"Английский", "Белорусский" });
         comboBox1.Location = new System.Drawing.Point(1140, 42);
         comboBox1.Name = "comboBox1";
-        comboBox1.SelectedIndex = 2;
-        comboBox1.SelectedItem = 2;
+        comboBox1.SelectedItem = "Белорусский";
         comboBox1.Size = new System.Drawing.Size(121, 23);
         comboBox1.TabIndex = 5;
         comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
@@ -117,35 +116,43 @@ partial class JsonLocalizator
         button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
         button1.UseVisualStyleBackColor = true;
         button1.Click += button1_Click;
-        // 
-        // flowLayoutPanel1
-        // 
-        flowLayoutPanel1.AutoSize = true;
-        flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-        flowLayoutPanel1.Location = new System.Drawing.Point(3, 3);
-        flowLayoutPanel1.Name = "flowLayoutPanel1";
-        flowLayoutPanel1.Size = new System.Drawing.Size(339, 702);
-        flowLayoutPanel1.TabIndex = 8;
+       
+        //flowLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left));
+        
         // 
         // flowLayoutPanel3
         // 
         flowLayoutPanel3.AutoSize = true;
+        flowLayoutPanel3.Width = (int)(panel1.Width * 0.30);
+        flowLayoutPanel3.BorderStyle = System.Windows.Forms.BorderStyle.None;
         flowLayoutPanel3.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-        flowLayoutPanel3.Location = new System.Drawing.Point(652, 3);
+        flowLayoutPanel3.Location = new System.Drawing.Point((int)(panel1.Width * 0.5), 0);
         flowLayoutPanel3.Name = "flowLayoutPanel3";
-        flowLayoutPanel3.Size = new System.Drawing.Size(332, 702);
         flowLayoutPanel3.TabIndex = 9;
         flowLayoutPanel3.WrapContents = false;
         // 
         // flowLayoutPanel2
         // 
         flowLayoutPanel2.AutoSize = true;
+        flowLayoutPanel2.Width = (int)(panel1.Width * 0.30);
+        flowLayoutPanel2.BorderStyle = System.Windows.Forms.BorderStyle.None;
         flowLayoutPanel2.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-        flowLayoutPanel2.Location = new System.Drawing.Point(338, 3);
+        flowLayoutPanel2.Location = new System.Drawing.Point((int)(panel1.Width * 0.19), 0);
         flowLayoutPanel2.Name = "flowLayoutPanel2";
-        flowLayoutPanel2.Size = new System.Drawing.Size(317, 702);
         flowLayoutPanel2.TabIndex = 8;
         flowLayoutPanel2.WrapContents = false;
+        // 
+        // flowLayoutPanel1
+        // 
+        flowLayoutPanel1.AutoSize = true;
+        flowLayoutPanel1.Width = (int)(panel1.Width * 0.18);
+        flowLayoutPanel1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+        flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+        flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+        flowLayoutPanel1.Name = "flowLayoutPanel1";
+        flowLayoutPanel1.TabIndex = 8;
+        flowLayoutPanel1.WrapContents = false;
+        
         // 
         // tableLayoutPanel1
         // 
@@ -174,13 +181,14 @@ partial class JsonLocalizator
         // 
         // panel1
         // 
-        panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right));
         panel1.AutoScroll = true;
         panel1.Controls.Add(flowLayoutPanel3);
         panel1.Controls.Add(flowLayoutPanel1);
         panel1.Controls.Add(flowLayoutPanel2);
+        panel1.Dock = System.Windows.Forms.DockStyle.Fill;
         panel1.Location = new System.Drawing.Point(129, 42);
         panel1.Name = "panel1";
+        panel1.AutoSize = true;
         panel1.Size = new System.Drawing.Size(1005, 705);
         panel1.TabIndex = 9;
         // 
@@ -198,9 +206,9 @@ partial class JsonLocalizator
         // label3
         // 
         label3.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)0));
-        label3.Location = new System.Drawing.Point(640, 5);
+        label3.Location = new System.Drawing.Point((int)(panel2.Width * 0.5), 0);
         label3.Name = "label3";
-        label3.Size = new System.Drawing.Size(315, 25);
+        label3.Size = new System.Drawing.Size((int)(panel2.Width * 0.3), (int)(panel2.Height *0.95));
         label3.TabIndex = 2;
         label3.Text = "Переведенное значение";
         label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -208,9 +216,9 @@ partial class JsonLocalizator
         // label2
         // 
         label2.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)0));
-        label2.Location = new System.Drawing.Point(317, 3);
+        label2.Location = new System.Drawing.Point((int)(panel2.Width * 0.19), 0);
         label2.Name = "label2";
-        label2.Size = new System.Drawing.Size(315, 28);
+        label2.Size = new System.Drawing.Size((int)(panel2.Width * 0.3), (int)(panel2.Height *0.95));
         label2.TabIndex = 1;
         label2.Text = "Исходное значение";
         label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -218,12 +226,43 @@ partial class JsonLocalizator
         // label1
         // 
         label1.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)0));
-        label1.Location = new System.Drawing.Point(3, 2);
+        label1.Location = new System.Drawing.Point(0, 0);
         label1.Name = "label1";
-        label1.Size = new System.Drawing.Size(308, 30);
+        label1.Size = new System.Drawing.Size((int)(panel2.Width * 0.18), (int)(panel2.Height *0.95));
         label1.TabIndex = 0;
         label1.Text = "Ключ";
         label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+        ///
+        /// Resize
+        ///
+        this.Resize += (s, e) =>
+        {
+            panel1.SuspendLayout();
+            //flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            flowLayoutPanel2.Location = new System.Drawing.Point((int)(panel1.Width * 0.19), 0);
+            flowLayoutPanel3.Location = new System.Drawing.Point((int)(panel1.Width * 0.5), 0);
+            label1.Size = new System.Drawing.Size((int)(panel2.Width * 0.18), (int)(panel2.Height * 0.95));
+            label2.Size = new System.Drawing.Size((int)(panel2.Width * 0.3), (int)(panel2.Height * 0.95));
+            label3.Size = new System.Drawing.Size((int)(panel2.Width * 0.3), (int)(panel2.Height * 0.95));
+            label2.Location = new System.Drawing.Point((int)(panel2.Width * 0.19), 0);
+            label3.Location = new System.Drawing.Point((int)(panel2.Width * 0.5), 0);
+            if (flowLayoutPanel1.Controls.Count > 0)
+            {
+                foreach (TextBox control in flowLayoutPanel1.Controls)
+                {
+                    control.Width = (int)(panel1.Width * 0.18);
+                }
+                foreach (TextBox control in flowLayoutPanel2.Controls)
+                {
+                    control.Width = (int)(panel1.Width * 0.3);
+                }
+                foreach (TextBox control in flowLayoutPanel3.Controls)
+                {
+                    control.Width = (int)(panel1.Width * 0.3);
+                }
+            }
+            panel1.ResumeLayout(true);
+        };
         // 
         // JsonLocalizator
         // 
