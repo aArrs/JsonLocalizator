@@ -16,7 +16,7 @@ public class ControlsAdder : IAddControls
             textBox.Text = item.Name;
             textBox.Font = new Font("Arial", 12);
             textBox.AutoSize = false;
-            textBox.Size = new Size((int)(panel.Width * 0.18), 80);
+            textBox.Size = new Size((int)(panel.Width * 0.18), 70);
             textBox.Margin = new Padding(5);
             textBox.TextAlign = HorizontalAlignment.Right;
             //textBox.BorderStyle = BorderStyle.None;
@@ -38,7 +38,7 @@ public class ControlsAdder : IAddControls
             textBox.Text = item.Value.ToString();
             textBox.Font = new Font("Arial", 12);
             textBox.AutoSize = false;
-            textBox.Size = new Size((int)(panel.Width * 0.30), 80);
+            textBox.Size = new Size((int)(panel.Width * 0.30), 70);
             textBox.Multiline = true;
             textBox.ScrollBars = ScrollBars.Vertical;
             textBox.Margin = new Padding(5);
@@ -61,7 +61,7 @@ public class ControlsAdder : IAddControls
             textBox.Text = item.Value.ToString();
             textBox.Font = new Font("Arial", 12);
             textBox.AutoSize = false;
-            textBox.Size = new Size((int)(panel.Width * 0.3), 80);
+            textBox.Size = new Size((int)(panel.Width * 0.3), 70);
             textBox.Multiline = true;
             textBox.ScrollBars = ScrollBars.Vertical;
             textBox.Margin = new Padding(5);
