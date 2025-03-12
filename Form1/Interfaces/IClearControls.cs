@@ -2,5 +2,5 @@
 
 public interface IClearControls
 {
-    public void RemoveControls(List<Control> controlsToRemove, FlowLayoutPanel flowLayoutPanel);
+    public void RemoveControls(List<Control> controlsToRemove, Panel panel);
 }

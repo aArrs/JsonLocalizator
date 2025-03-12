@@ -4,13 +4,13 @@ namespace WinFormsApp2.Classes;
 
 public class JsonCreator : ICreateJson
 {
-    //создание файла в директории ...Documents,
+    //создание файла в директории ...Documents\en\be,
     //запись в него переведенной структуры json
     public async void CreateJson(string translatedStrings, string fileName, string toLanguage)
     {
         var username = Environment.UserName;
-        var newFileName = $"{fileName}_{toLanguage}.json";
-        var filePath = "C:\\Users\\" + username + $"\\Documents\\{newFileName}";
+        var newFileName = $"{fileName}.json";
+        var filePath = "C:\\Users\\" + username + $"\\Documents\\{toLanguage}\\{newFileName}";
         if (fileName == null)
         {
             throw new Exception("Выберите файл для перевода.");

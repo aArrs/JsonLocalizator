@@ -15,7 +15,7 @@ public class Cast : ICast
         }
         catch(JsonReaderException jre)
         {
-            MessageBox.Show("Файл неисправен");
+            MessageBox.Show("Неправильная структура файла.");
         }
 
         return parsedValue;

@@ -1,0 +1,9 @@
+C:\C#\Repositories\New folder\Publish\Form1.exe
+C:\C#\Repositories\New folder\Publish\Form1.dll
+C:\C#\Repositories\New folder\Publish\Form1.deps.json
+C:\C#\Repositories\New folder\Publish\Form1.runtimeconfig.json
+C:\C#\Repositories\New folder\Publish\Form1.pdb
+C:\C#\Repositories\New folder\Publish\GTranslate.dll
+C:\C#\Repositories\New folder\Publish\Microsoft.Extensions.DependencyInjection.dll
+C:\C#\Repositories\New folder\Publish\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\C#\Repositories\New folder\Publish\Newtonsoft.Json.dll

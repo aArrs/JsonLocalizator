@@ -5,16 +5,15 @@ namespace WinFormsApp2.Classes;
 public class ControlsCleaner : IClearControls
 {
     //очистка панели от элементов контроля
-    public void RemoveControls(List<Control> controlsToRemove, FlowLayoutPanel flowLayoutPanel)
+    public void RemoveControls(List<Control> controlsToRemove, Panel panel)
     {
-        flowLayoutPanel.SuspendLayout();
-        flowLayoutPanel.Controls.Clear();
+        panel.SuspendLayout();
         foreach (Control control in controlsToRemove)
         {
             control.Dispose();
         }
         controlsToRemove.Clear();
         controlsToRemove.TrimExcess();
-        flowLayoutPanel.ResumeLayout();
+        panel.ResumeLayout();
     }
 }

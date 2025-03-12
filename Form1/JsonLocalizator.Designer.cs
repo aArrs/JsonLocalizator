@@ -1,4 +1,4 @@
-﻿namespace WinFormsApp2;
+﻿﻿namespace WinFormsApp2;
 
 partial class JsonLocalizator
 {
@@ -34,9 +34,6 @@ partial class JsonLocalizator
         button2 = new System.Windows.Forms.Button();
         button4 = new System.Windows.Forms.Button();
         button1 = new System.Windows.Forms.Button();
-        flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-        flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
-        flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
         tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
         panel1 = new System.Windows.Forms.Panel();
         panel2 = new System.Windows.Forms.Panel();
@@ -44,7 +41,6 @@ partial class JsonLocalizator
         label2 = new System.Windows.Forms.Label();
         label1 = new System.Windows.Forms.Label();
         tableLayoutPanel1.SuspendLayout();
-        panel1.SuspendLayout();
         panel2.SuspendLayout();
         SuspendLayout();
         // 
@@ -52,10 +48,14 @@ partial class JsonLocalizator
         // 
         button3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right));
         button3.AutoSize = true;
-        button3.Font = new System.Drawing.Font("Segoe UI", 10F);
+        button3.Font = new System.Drawing.Font("Segoe UI", 12F);
         button3.Location = new System.Drawing.Point(1140, 753);
         button3.Name = "button3";
         button3.Size = new System.Drawing.Size(121, 34);
+        button3.FlatStyle = FlatStyle.Flat;
+        button3.FlatAppearance.BorderColor = Color.FromArgb(255, 102, 0);
+        button3.FlatAppearance.BorderSize = 1;
+        button3.BackColor = Color.White;
         button3.TabIndex = 6;
         button3.Text = "Сохранить";
         button3.UseVisualStyleBackColor = true;
@@ -66,10 +66,11 @@ partial class JsonLocalizator
         comboBox1.Dock = System.Windows.Forms.DockStyle.Top;
         comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
         comboBox1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-        comboBox1.Items.AddRange(new object[] {"Английский", "Белорусский" });
+        comboBox1.Items.AddRange(new object[] { "Английский", "Белорусский" });
         comboBox1.Location = new System.Drawing.Point(1140, 42);
         comboBox1.Name = "comboBox1";
-        comboBox1.SelectedItem = "Белорусский";
+        comboBox1.SelectedIndex = 1;
+        comboBox1.SelectedItem = 1;
         comboBox1.Size = new System.Drawing.Size(121, 23);
         comboBox1.TabIndex = 5;
         comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
@@ -79,10 +80,14 @@ partial class JsonLocalizator
         button2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right));
         button2.AutoSize = true;
         button2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-        button2.Font = new System.Drawing.Font("Segoe UI", 10F);
+        button2.Font = new System.Drawing.Font("Segoe UI", 12F);
         button2.Location = new System.Drawing.Point(1140, 3);
         button2.Name = "button2";
         button2.Size = new System.Drawing.Size(121, 33);
+        button2.FlatStyle = FlatStyle.Flat;
+        button2.FlatAppearance.BorderColor = Color.FromArgb(255, 102, 0);
+        button2.FlatAppearance.BorderSize = 1;
+        button2.BackColor = Color.White;
         button2.TabIndex = 2;
         button2.Text = "Перевести";
         button2.UseVisualStyleBackColor = true;
@@ -93,10 +98,14 @@ partial class JsonLocalizator
         button4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right));
         button4.AutoSize = true;
         button4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-        button4.Font = new System.Drawing.Font("Segoe UI", 10F);
+        button4.Font = new System.Drawing.Font("Segoe UI", 12F);
         button4.Location = new System.Drawing.Point(3, 753);
         button4.Name = "button4";
         button4.Size = new System.Drawing.Size(120, 34);
+        button4.FlatStyle = FlatStyle.Flat;
+        button4.FlatAppearance.BorderColor = Color.FromArgb(255, 102, 0);
+        button4.FlatAppearance.BorderSize = 1;
+        button4.BackColor = Color.White;
         button4.TabIndex = 7;
         button4.Text = "Очистить";
         button4.UseVisualStyleBackColor = true;
@@ -107,61 +116,85 @@ partial class JsonLocalizator
         button1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right));
         button1.AutoSize = true;
         button1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-        button1.Font = new System.Drawing.Font("Segoe UI", 10F);
+        button1.Font = new System.Drawing.Font("Segoe UI", 12F);
         button1.Location = new System.Drawing.Point(3, 3);
         button1.Name = "button1";
         button1.Size = new System.Drawing.Size(120, 33);
+        button1.FlatStyle = FlatStyle.Flat;
+        button1.FlatAppearance.BorderColor = Color.FromArgb(255, 102, 0);
+        button1.FlatAppearance.BorderSize = 1;
+        button1.BackColor = Color.White;
         button1.TabIndex = 0;
         button1.Text = "Выбрать файл";
         button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
         button1.UseVisualStyleBackColor = true;
         button1.Click += button1_Click;
-       
-        //flowLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left));
         
-        // 
-        // flowLayoutPanel3
-        // 
-        flowLayoutPanel3.AutoSize = true;
-        flowLayoutPanel3.Width = (int)(panel1.Width * 0.30);
-        flowLayoutPanel3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-        flowLayoutPanel3.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-        flowLayoutPanel3.Location = new System.Drawing.Point((int)(panel1.Width * 0.5), 0);
-        flowLayoutPanel3.Name = "flowLayoutPanel3";
-        flowLayoutPanel3.TabIndex = 9;
-        flowLayoutPanel3.WrapContents = false;
-        // 
-        // flowLayoutPanel2
-        // 
-        flowLayoutPanel2.AutoSize = true;
-        flowLayoutPanel2.Width = (int)(panel1.Width * 0.30);
-        flowLayoutPanel2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-        flowLayoutPanel2.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-        flowLayoutPanel2.Location = new System.Drawing.Point((int)(panel1.Width * 0.19), 0);
-        flowLayoutPanel2.Name = "flowLayoutPanel2";
-        flowLayoutPanel2.TabIndex = 8;
-        flowLayoutPanel2.WrapContents = false;
-        // 
-        // flowLayoutPanel1
-        // 
-        flowLayoutPanel1.AutoSize = true;
-        flowLayoutPanel1.Width = (int)(panel1.Width * 0.18);
-        flowLayoutPanel1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-        flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-        flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-        flowLayoutPanel1.Name = "flowLayoutPanel1";
-        flowLayoutPanel1.TabIndex = 8;
-        flowLayoutPanel1.WrapContents = false;
-        
+        button1.MouseEnter += (s, e) =>
+        {
+            button1.BackColor = Color.FromArgb(255, 102, 0);
+            button1.FlatAppearance.BorderColor = Color.FromArgb(153,51, 0);
+            button1.ForeColor = Color.White;
+            button1.Refresh(); // Перерисовываем кнопку
+        };
+        button1.MouseLeave += (s, e) =>
+        {
+            button1.BackColor = Color.White;    
+            button1.FlatAppearance.BorderColor = Color.FromArgb(255, 102, 0);
+            button1.ForeColor = Color.Black;
+            button1.Refresh(); // Перерисовываем кнопку
+        };
+        button2.MouseEnter += (s, e) =>
+        {
+            button2.BackColor = Color.FromArgb(255, 102, 0);
+            button2.FlatAppearance.BorderColor = Color.FromArgb(153,51, 0);
+            button2.ForeColor = Color.White;
+            button2.Refresh(); // Перерисовываем кнопку
+        };
+        button2.MouseLeave += (s, e) =>
+        {
+            button2.BackColor = Color.White;    
+            button2.FlatAppearance.BorderColor = Color.FromArgb(255, 102, 0);
+            button2.ForeColor = Color.Black;
+            button2.Refresh(); // Перерисовываем кнопку
+        };
+        button3.MouseEnter += (s, e) =>
+        {
+            button3.BackColor = Color.FromArgb(255,51,0);
+            button3.FlatAppearance.BorderColor = Color.FromArgb(153,51, 0);
+            button3.ForeColor = Color.White;
+            button3.Refresh(); // Перерисовываем кнопку
+        };
+        button3.MouseLeave += (s, e) =>
+        {
+            button3.BackColor = Color.White;    
+            button3.FlatAppearance.BorderColor = Color.FromArgb(255, 102, 0);
+            button3.ForeColor = Color.Black;
+            button3.Refresh(); // Перерисовываем кнопку
+        };
+        button4.MouseEnter += (s, e) =>
+        {
+            button4.BackColor = Color.FromArgb(255, 102, 0);
+            button4.FlatAppearance.BorderColor = Color.FromArgb(153,51, 0);
+            button4.ForeColor = Color.White;
+            button4.Refresh(); // Перерисовываем кнопку
+        };
+        button4.MouseLeave += (s, e) =>
+        {
+            button4.BackColor = Color.White;    
+            button4.FlatAppearance.BorderColor = Color.FromArgb(255, 102, 0);
+            button4.ForeColor = Color.Black;
+            button4.Refresh(); // Перерисовываем кнопку
+        };
         // 
         // tableLayoutPanel1
         // 
         tableLayoutPanel1.AutoSize = true;
-        tableLayoutPanel1.BackColor = System.Drawing.SystemColors.Info;
+        tableLayoutPanel1.BackColor = Color.FromArgb(255,204,153);
         tableLayoutPanel1.ColumnCount = 3;
-        tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-        tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 80F));
-        tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+        tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12F));
+        tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 76F));
+        tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12F));
         tableLayoutPanel1.Controls.Add(button3, 2, 2);
         tableLayoutPanel1.Controls.Add(button1, 0, 0);
         tableLayoutPanel1.Controls.Add(button4, 0, 2);
@@ -182,13 +215,13 @@ partial class JsonLocalizator
         // panel1
         // 
         panel1.AutoScroll = true;
-        panel1.Controls.Add(flowLayoutPanel3);
-        panel1.Controls.Add(flowLayoutPanel1);
-        panel1.Controls.Add(flowLayoutPanel2);
+        panel1.AutoScrollMinSize = new Size(0, panel1.Height);
+        panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+        panel1.AutoSize = true;
+        panel1.BorderStyle = System.Windows.Forms.BorderStyle.None;
         panel1.Dock = System.Windows.Forms.DockStyle.Fill;
         panel1.Location = new System.Drawing.Point(129, 42);
         panel1.Name = "panel1";
-        panel1.AutoSize = true;
         panel1.Size = new System.Drawing.Size(1005, 705);
         panel1.TabIndex = 9;
         // 
@@ -205,71 +238,81 @@ partial class JsonLocalizator
         // 
         // label3
         // 
-        label3.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)0));
-        label3.Location = new System.Drawing.Point((int)(panel2.Width * 0.5), 0);
+        label3.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)0));
+        label3.Location = new System.Drawing.Point((int)(panel2.Width * 0.52), 0);
         label3.Name = "label3";
-        label3.Size = new System.Drawing.Size((int)(panel2.Width * 0.3), (int)(panel2.Height *0.95));
+        label3.Size = new System.Drawing.Size((int)(panel2.Width * 0.30), 23);
         label3.TabIndex = 2;
         label3.Text = "Переведенное значение";
-        label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+        label3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
         // 
         // label2
         // 
-        label2.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)0));
-        label2.Location = new System.Drawing.Point((int)(panel2.Width * 0.19), 0);
+        label2.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)0)); label2.Location = new System.Drawing.Point((int)(panel2.Width * 0.2), 0);   
         label2.Name = "label2";
-        label2.Size = new System.Drawing.Size((int)(panel2.Width * 0.3), (int)(panel2.Height *0.95));
+        label2.Size = new System.Drawing.Size((int)(panel2.Width * 0.30), 23);
         label2.TabIndex = 1;
         label2.Text = "Исходное значение";
-        label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+        label2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
         // 
         // label1
         // 
-        label1.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)0));
+        label1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)0));
         label1.Location = new System.Drawing.Point(0, 0);
         label1.Name = "label1";
-        label1.Size = new System.Drawing.Size((int)(panel2.Width * 0.18), (int)(panel2.Height *0.95));
+        label1.Size = new System.Drawing.Size((int)(panel2.Width * 0.18), 23);
         label1.TabIndex = 0;
         label1.Text = "Ключ";
-        label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-        ///
-        /// Resize
-        ///
+        label1.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+        
         this.Resize += (s, e) =>
-        {
-            panel1.SuspendLayout();
-            //flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            flowLayoutPanel2.Location = new System.Drawing.Point((int)(panel1.Width * 0.19), 0);
-            flowLayoutPanel3.Location = new System.Drawing.Point((int)(panel1.Width * 0.5), 0);
-            label1.Size = new System.Drawing.Size((int)(panel2.Width * 0.18), (int)(panel2.Height * 0.95));
-            label2.Size = new System.Drawing.Size((int)(panel2.Width * 0.3), (int)(panel2.Height * 0.95));
-            label3.Size = new System.Drawing.Size((int)(panel2.Width * 0.3), (int)(panel2.Height * 0.95));
-            label2.Location = new System.Drawing.Point((int)(panel2.Width * 0.19), 0);
-            label3.Location = new System.Drawing.Point((int)(panel2.Width * 0.5), 0);
-            if (flowLayoutPanel1.Controls.Count > 0)
+        { 
+            panel1.AutoScrollPosition = new Point(0, 0);
+            if (translatedList.Count > 0)
             {
-                foreach (TextBox control in flowLayoutPanel1.Controls)
+                for (int i = 0; i < textBoxList.Count; i++)
                 {
-                    control.Width = (int)(panel1.Width * 0.18);
+                    _updateList.UpdateList(translatedList, textBoxList[i], i);
                 }
-                foreach (TextBox control in flowLayoutPanel2.Controls)
-                {
-                    control.Width = (int)(panel1.Width * 0.3);
-                }
-                foreach (TextBox control in flowLayoutPanel3.Controls)
-                {
-                    control.Width = (int)(panel1.Width * 0.3);
-                }
+                _clearControls.RemoveControls(textBoxList, panel1);
+                _addControls.AddTextBox(panel1, translatedList, textBoxList);
             }
-            panel1.ResumeLayout(true);
-        };
+            var  y = 0;
+            var y1 = 0;
+            var y2 = 0;
+            foreach (Control label in labelList)
+            {
+                label.Location = new Point(0, y);
+                label.Size = new Size((int)(panel1.Width * 0.18), 70);
+                y += 80;
+            }
+            foreach (Control iTextBox in immutTextBoxList)
+            {
+                iTextBox.Location = new Point((int)(panel1.Width * 0.2), y1);
+                iTextBox.Size = new Size((int)(panel1.Width * 0.30), 70);
+                y1 += 80;
+            }
+            foreach (Control textBox in textBoxList)
+            {
+                textBox.Location = new Point((int)(panel1.Width * 0.52), y2);
+                textBox.Size = new Size((int)(panel1.Width * 0.30), 70);
+                y2 += 80;
+            }
+            label1.Size = new System.Drawing.Size((int)(panel2.Width * 0.18), 23);
+            label2.Size = new System.Drawing.Size((int)(panel2.Width * 0.30), 23);
+            label3.Size = new System.Drawing.Size((int)(panel2.Width * 0.30), 23);
+            label2.Location = new System.Drawing.Point((int)(panel2.Width * 0.2), 0);
+            label3.Location = new System.Drawing.Point((int)(panel2.Width * 0.52), 0);
+        }
+        ;
         // 
         // JsonLocalizator
         // 
         AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
         AutoScroll = true;
         AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-        BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+        BackColor = Color.FromArgb(255,204,153);
+        Text = "Переводчик";
         ClientSize = new System.Drawing.Size(1264, 790);
         Controls.Add(tableLayoutPanel1);
         KeyPreview = true;
@@ -278,8 +321,6 @@ partial class JsonLocalizator
         Load += JsonTranslator_Load;
         tableLayoutPanel1.ResumeLayout(false);
         tableLayoutPanel1.PerformLayout();
-        panel1.ResumeLayout(false);
-        panel1.PerformLayout();
         panel2.ResumeLayout(false);
         ResumeLayout(false);
         PerformLayout();
@@ -292,16 +333,10 @@ partial class JsonLocalizator
 
     private System.Windows.Forms.Panel panel2;
 
-    private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-
     private System.Windows.Forms.Panel panel1;
     
     private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
 
-    private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
-    
-    private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
-    
     private System.Windows.Forms.Button button4;
 
     private System.Windows.Forms.Button button3;

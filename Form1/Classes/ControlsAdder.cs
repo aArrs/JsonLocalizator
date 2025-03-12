@@ -5,37 +5,40 @@ namespace WinFormsApp2.Classes;
 
 public class ControlsAdder : IAddControls
 {
-    public void AddLabel(FlowLayoutPanel flowLayoutPanel, Panel panel, List<JProperty> sourceList, List<Control> controlsToRemove)
+    public void AddLabel( Panel panel, List<JProperty> sourceList, List<Control> labelList)
     {
-        flowLayoutPanel.SuspendLayout();
-
+        panel.SuspendLayout();
+        var y = 0;
         foreach (var item in sourceList)
         {
             TextBox textBox = new TextBox();
-            controlsToRemove.Add(textBox);
+            labelList.Add(textBox);
             textBox.Text = item.Name;
-            textBox.Font = new Font("Arial", 12);
+            textBox.Location = new Point(0, y);
+            textBox.Font = new Font("Arial", 12, FontStyle.Underline);
             textBox.AutoSize = false;
             textBox.Size = new Size((int)(panel.Width * 0.18), 70);
             textBox.Margin = new Padding(5);
             textBox.TextAlign = HorizontalAlignment.Right;
-            //textBox.BorderStyle = BorderStyle.None;
-            textBox.BorderStyle = BorderStyle.FixedSingle;
-            textBox.BackColor = SystemColors.Info;
+            textBox.BorderStyle = BorderStyle.None;
+            //textBox.BorderStyle = BorderStyle.FixedSingle;
+            textBox.BackColor = Color.FromArgb(255,204,153);
             textBox.ReadOnly = true;
-            flowLayoutPanel.Controls.Add(textBox);
+            y += 80;
+            panel.Controls.Add(textBox);
         }
-        flowLayoutPanel.ResumeLayout();
+        panel.ResumeLayout();
     }
-    public void AddImmutableTextBox(FlowLayoutPanel flowLayoutPanel, Panel panel, List<JProperty> sourceList, List<Control> controlsToRemove)
+    public void AddImmutableTextBox(Panel panel, List<JProperty> sourceList, List<Control> immutTextboxList)
     {
-        flowLayoutPanel.SuspendLayout();
-        
+        panel.SuspendLayout();
+        var y = 0;
         foreach (var item in sourceList)
         {
             TextBox textBox = new TextBox();
-            controlsToRemove.Add(textBox);
+            immutTextboxList.Add(textBox);
             textBox.Text = item.Value.ToString();
+            textBox.Location = new Point((int)(panel.Width * 0.2), y);
             textBox.Font = new Font("Arial", 12);
             textBox.AutoSize = false;
             textBox.Size = new Size((int)(panel.Width * 0.30), 70);
@@ -45,20 +48,22 @@ public class ControlsAdder : IAddControls
            // textBox.BorderStyle = BorderStyle.None;
             textBox.BorderStyle = BorderStyle.FixedSingle;
             textBox.ReadOnly = true;
-            flowLayoutPanel.Controls.Add(textBox);
+            y += 80;
+            panel.Controls.Add(textBox);
         }
         
-        flowLayoutPanel.ResumeLayout();
+        panel.ResumeLayout();
     }
-    public void AddTextBox(FlowLayoutPanel flowLayoutPanel, Panel panel, List<JProperty> translatedList, List<Control> controlsToRemove)
+    public void AddTextBox(Panel panel, List<JProperty> translatedList, List<Control> controlsToRemove)
     {
-        flowLayoutPanel.ResumeLayout();
-        
+        panel.ResumeLayout();
+        var y = 0;
         foreach (var item in translatedList)    
         {
             TextBox textBox = new TextBox();
             controlsToRemove.Add(textBox);
             textBox.Text = item.Value.ToString();
+            textBox.Location = new Point((int)(panel.Width * 0.52), y);
             textBox.Font = new Font("Arial", 12);
             textBox.AutoSize = false;
             textBox.Size = new Size((int)(panel.Width * 0.3), 70);
@@ -68,7 +73,8 @@ public class ControlsAdder : IAddControls
             //textBox.BorderStyle = BorderStyle.None;
             textBox.BorderStyle = BorderStyle.FixedSingle;
             textBox.BackColor = SystemColors.Window;
-            flowLayoutPanel.Controls.Add(textBox);
-        }
+            y += 80;
+            panel.Controls.Add(textBox);
+        }   
     }
 }
