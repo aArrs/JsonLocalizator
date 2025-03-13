@@ -1,8 +1,6 @@
 using GTranslate.Translators;
 using Newtonsoft.Json.Linq;
-using WinFormsApp2.Classes;
 using WinFormsApp2.Interfaces;
-using Timer = System.Windows.Forms.Timer;
 
 namespace WinFormsApp2;
 
@@ -50,13 +48,24 @@ namespace WinFormsApp2;
         {
             panel1.SuspendLayout();
             panel1.AutoScrollPosition = new Point(0, 0);
+            
             _clearControls.RemoveControls(labelList, panel1);
             _clearControls.RemoveControls(immutTextBoxList, panel1);
             _clearControls.RemoveControls(textBoxList, panel1);
+            sourceList.Clear();
+            sourceList.TrimExcess();
             textBoxList.Clear();
             textBoxList.TrimExcess();
+            immutTextBoxList.Clear();
+            immutTextBoxList.TrimExcess();
+            labelList.Clear();
+            labelList.TrimExcess();
             translatedList.Clear();
             translatedList.TrimExcess();
+            foreach (Control control in panel1.Controls)
+            {
+                control.Dispose();
+            }
             try
             {
                 sourceStrings = _cast.GetJObject(_getFileText.GetText());
@@ -71,12 +80,18 @@ namespace WinFormsApp2;
                 _addControls.AddLabel(panel1, sourceList, labelList);
                 _addControls.AddImmutableTextBox(panel1, sourceList, immutTextBoxList);
             }
+            catch (FileNotFoundException ex)
+            {
+                MessageBox.Show("Файла нет");
+            }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
+            
             panel1.ResumeLayout();
         }
+        
         private async void button2_Click(object sender, EventArgs e)
         {
             panel1.AutoScrollPosition = new Point(0, 0);
@@ -99,19 +114,25 @@ namespace WinFormsApp2;
                     button4.Enabled = false;
                     panel1.AutoScroll = false;
                 }
+
                 translatedStrings = await _translate.TranslateJsonYa(translatorYandex, sourceStrings, language);
                 translatedList = _viewList.ValueViewer(translatedStrings, translatedList);
                 _addControls.AddTextBox(panel1, translatedList, textBoxList);
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                //cts.Cancel();
+                
+            }
+            finally
+            {
                 panel1.AutoScroll = true;
                 button1.Enabled = true;
                 button2.Enabled = true;
                 button3.Enabled = true;
                 button4.Enabled = true;
-                
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
             }
         }
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)

@@ -13,6 +13,9 @@
       <PackageReference Include="GTranslate" Version="2.2.8" />
       <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.0-preview.1.25080.5" />
       <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      
+        <PackageReference Include="MSTest.TestAdapter" Version="3.8.2" />
+        <PackageReference Include="MSTest.TestFramework" Version="3.6.1" />
     </ItemGroup>
 
 </Project>

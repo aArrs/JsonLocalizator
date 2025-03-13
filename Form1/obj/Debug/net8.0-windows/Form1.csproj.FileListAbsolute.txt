@@ -119,3 +119,223 @@ C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
 C:\C#\Repositories\New folder\Form1\obj\Debug\net8.0-windows\Form1.csproj.Up2Date
 C:\C#\Repositories\New folder\Form1\obj\Debug\net8.0-windows\Form1.genruntimeconfig.cache
 C:\C#\Repositories\New folder\Form1\obj\Debug\net8.0-windows\ref\Form1.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\NUnit3.TestAdapter.pdb
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\nunit.engine.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\nunit.engine.api.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\nunit.engine.core.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\testcentric.engine.metadata.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\NUnit3.TestAdapter.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\Microsoft.ApplicationInsights.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\Microsoft.Testing.Extensions.Telemetry.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\Microsoft.Testing.Extensions.TrxReport.Abstractions.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\Microsoft.Testing.Extensions.VSTestBridge.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\Microsoft.Testing.Platform.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\Microsoft.Testing.Extensions.MSBuild.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\Microsoft.TestPlatform.CoreUtilities.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\nunit.framework.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\nunit.framework.legacy.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\cs\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\de\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\es\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\fr\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\it\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\ja\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\ko\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\pl\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\pt-BR\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\ru\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\tr\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\cs\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\de\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\es\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\fr\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\it\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\ja\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\ko\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\pl\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\pt-BR\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\ru\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\tr\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\cs\Microsoft.Testing.Platform.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\de\Microsoft.Testing.Platform.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\es\Microsoft.Testing.Platform.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\fr\Microsoft.Testing.Platform.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\it\Microsoft.Testing.Platform.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\ja\Microsoft.Testing.Platform.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\ko\Microsoft.Testing.Platform.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\pl\Microsoft.Testing.Platform.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\pt-BR\Microsoft.Testing.Platform.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\ru\Microsoft.Testing.Platform.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\tr\Microsoft.Testing.Platform.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Testing.Platform.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Testing.Platform.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\cs\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\de\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\es\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\fr\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\it\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\ja\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\ko\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\pl\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\pt-BR\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\ru\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\tr\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\cs\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\de\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\it\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\ja\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\ko\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\pl\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\pt-BR\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\tr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\zh-Hans\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\zh-Hant\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\C#\Repositories\New folder\Form1\bin\Debug\net8.0-windows\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\Microsoft.ApplicationInsights.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\Microsoft.Testing.Extensions.Telemetry.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\Microsoft.Testing.Extensions.TrxReport.Abstractions.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\Microsoft.Testing.Extensions.VSTestBridge.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\Microsoft.Testing.Platform.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\Microsoft.Testing.Extensions.MSBuild.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\Microsoft.TestPlatform.CoreUtilities.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\cs\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\de\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\es\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\fr\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\it\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\ja\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\ko\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\pl\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\pt-BR\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\ru\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\tr\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Testing.Extensions.Telemetry.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\cs\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\de\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\es\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\fr\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\it\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\ja\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\ko\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\pl\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\pt-BR\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\ru\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\tr\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Testing.Extensions.VSTestBridge.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\cs\Microsoft.Testing.Platform.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\de\Microsoft.Testing.Platform.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\es\Microsoft.Testing.Platform.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\fr\Microsoft.Testing.Platform.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\it\Microsoft.Testing.Platform.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\ja\Microsoft.Testing.Platform.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\ko\Microsoft.Testing.Platform.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\pl\Microsoft.Testing.Platform.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\pt-BR\Microsoft.Testing.Platform.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\ru\Microsoft.Testing.Platform.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\tr\Microsoft.Testing.Platform.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Testing.Platform.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Testing.Platform.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\cs\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\de\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\es\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\fr\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\it\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\ja\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\ko\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\pl\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\pt-BR\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\ru\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\tr\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\cs\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\de\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\it\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\ja\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\ko\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\pl\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\pt-BR\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\tr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\zh-Hans\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\zh-Hant\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\C#\Repositories\JsonLocalizator\JsonLocalizator\Form1\bin\Debug\net8.0-windows\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml

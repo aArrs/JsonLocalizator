@@ -5,7 +5,7 @@ namespace WinFormsApp2.Classes;
 
 public class ControlsAdder : IAddControls
 {
-    public void AddLabel( Panel panel, List<JProperty> sourceList, List<Control> labelList)
+    public void AddLabel(Panel panel, List<JProperty> sourceList, List<Control> labelList)
     {
         panel.SuspendLayout();
         var y = 0;

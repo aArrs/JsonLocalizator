@@ -54,7 +54,7 @@ partial class JsonLocalizator
         button3.Size = new System.Drawing.Size(121, 34);
         button3.FlatStyle = FlatStyle.Flat;
         button3.FlatAppearance.BorderColor = Color.FromArgb(255, 102, 0);
-        button3.FlatAppearance.BorderSize = 1;
+        button3.FlatAppearance.BorderSize = 2;
         button3.BackColor = Color.White;
         button3.TabIndex = 6;
         button3.Text = "Сохранить";
@@ -86,7 +86,7 @@ partial class JsonLocalizator
         button2.Size = new System.Drawing.Size(121, 33);
         button2.FlatStyle = FlatStyle.Flat;
         button2.FlatAppearance.BorderColor = Color.FromArgb(255, 102, 0);
-        button2.FlatAppearance.BorderSize = 1;
+        button2.FlatAppearance.BorderSize = 2;
         button2.BackColor = Color.White;
         button2.TabIndex = 2;
         button2.Text = "Перевести";
@@ -104,7 +104,7 @@ partial class JsonLocalizator
         button4.Size = new System.Drawing.Size(120, 34);
         button4.FlatStyle = FlatStyle.Flat;
         button4.FlatAppearance.BorderColor = Color.FromArgb(255, 102, 0);
-        button4.FlatAppearance.BorderSize = 1;
+        button4.FlatAppearance.BorderSize = 2;
         button4.BackColor = Color.White;
         button4.TabIndex = 7;
         button4.Text = "Очистить";
@@ -312,7 +312,7 @@ partial class JsonLocalizator
         AutoScroll = true;
         AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
         BackColor = Color.FromArgb(255,204,153);
-        Text = "Переводчик";
+        Text = "Локализатор json-структур";
         ClientSize = new System.Drawing.Size(1264, 790);
         Controls.Add(tableLayoutPanel1);
         KeyPreview = true;

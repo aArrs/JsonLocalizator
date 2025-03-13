@@ -31,7 +31,7 @@ public class JsonCreator : ICreateJson
         await using (File.Create(filePath)){}
 
         File.WriteAllText(filePath, translatedStrings);
-        MessageBox.Show($"Файл {newFileName} успешно сохранен.");
+        MessageBox.Show($"Файл {newFileName} успешно сохранен в {filePath}");
 
     }
 }

@@ -35,6 +35,10 @@ namespace WinFormsApp2.Classes;
                 }
                 else
                 {
+                    if(property.Value.ToString() == String.Empty)
+                    {
+                        continue;
+                    }
                     property.Value =
                         (await client.TranslateAsync(property.Value.ToString(), toLanguage, (await client.DetectLanguageAsync(property.Value.ToString())).ISO6391))
                         .Translation;
