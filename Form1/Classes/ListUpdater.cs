@@ -14,6 +14,14 @@ public class ListUpdater : IUpdateList
         }
         translatedList[index].Value = textBox.Text;
     }
+    public void UpdateResxList(List<KeyValuePair<string, string>> translatedList, List<KeyValuePair<string, string>> resxList,  Control textBox, int index)
+    {
+        if (translatedList == null)
+        {
+            throw new Exception("Переведите файл");
+        }
+        resxList.Add(new KeyValuePair<string, string>(translatedList[index].Key, textBox.Text));
+    }
 
     //Рекурсивная сборка переведенных значений в исходную json структуру
     public void UpdateTranslation(JObject translatedStrings, List<JProperty> translatedList)

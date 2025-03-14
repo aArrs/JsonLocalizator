@@ -267,6 +267,8 @@ partial class JsonLocalizator
         
         this.Resize += (s, e) =>
         { 
+            tableLayoutPanel1.SuspendLayout();
+            panel1.SuspendLayout();
             panel1.AutoScrollPosition = new Point(0, 0);
             if (translatedList.Count > 0)
             {
@@ -303,6 +305,8 @@ partial class JsonLocalizator
             label3.Size = new System.Drawing.Size((int)(panel2.Width * 0.30), 23);
             label2.Location = new System.Drawing.Point((int)(panel2.Width * 0.2), 0);
             label3.Location = new System.Drawing.Point((int)(panel2.Width * 0.52), 0);
+            panel1.ResumeLayout();
+            tableLayoutPanel1.ResumeLayout();
         }
         ;
         // 
@@ -312,7 +316,7 @@ partial class JsonLocalizator
         AutoScroll = true;
         AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
         BackColor = Color.FromArgb(255,204,153);
-        Text = "Локализатор json-структур";
+        Text = "Локализатор";
         ClientSize = new System.Drawing.Size(1264, 790);
         Controls.Add(tableLayoutPanel1);
         KeyPreview = true;
@@ -322,6 +326,7 @@ partial class JsonLocalizator
         tableLayoutPanel1.ResumeLayout(false);
         tableLayoutPanel1.PerformLayout();
         panel2.ResumeLayout(false);
+        DoubleBuffered = true;
         ResumeLayout(false);
         PerformLayout();
     }

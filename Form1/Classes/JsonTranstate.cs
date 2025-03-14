@@ -46,4 +46,24 @@ namespace WinFormsApp2.Classes;
             }
             return sourceStrings;
         }
+
+        public async Task<List<KeyValuePair<string, string>>> TranslateResxYa(YandexTranslator client, List<KeyValuePair<string, string>> sourceList,
+            string toLanguage)
+        {
+            var resxList = new List<KeyValuePair<string, string>>();
+            if (sourceList == null)
+            {
+                throw new Exception("Выберите файл.");
+            }
+            if (toLanguage == null)
+            {
+                throw new Exception("Выберите язык.");
+            }
+            for(int i = 0; i < sourceList.Count; i++)
+            {
+                resxList.Add(new KeyValuePair<string, string>(sourceList[i].Key,
+                    (await client.TranslateAsync(sourceList[i].Value.ToString(), toLanguage, "ru")).Translation));
+            }
+            return resxList;
+        }
     }

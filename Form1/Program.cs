@@ -31,5 +31,6 @@ class Program
         services.AddTransient<IAddControls, ControlsAdder>();
         services. AddSingleton<IClearControls, ControlsCleaner>();
         services. AddTransient<ICreateDirectory, DirectoryCreator>();
+        services. AddTransient<ICreateResx, ResxCreator>();
     }
 }   
